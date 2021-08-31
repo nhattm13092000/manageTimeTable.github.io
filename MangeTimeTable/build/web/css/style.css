@@ -1,0 +1,117 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : May 31, 2021, 4:40:13 PM
+    Author     : nhatbeo
+*/
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.header_title{
+    width: 100%;
+    height: 50px;
+}
+.header_title img{
+    width: 50px;
+    height: 50px;
+
+}
+.header_title span{
+    color: #3b8dbc;
+    font-weight: bold;
+    font-family: arial;
+    font-size: 25px;
+    line-height: 50px;
+}
+.search_nav{
+    padding-top: 20px;
+    width: 100%;
+    height: 91px;
+    border-bottom: 1px solid lightgray;
+    border-top: 1px solid lightgray;
+    margin-top: 10px;
+    display: flex;
+    padding-left: 10px;
+    font-family: arial;
+}
+.sellectdate h3{
+    font-size: 13px;
+}
+.sellectdate input{
+    padding: 10px;
+    border: 1px solid lightgray;
+    width: 400px;
+}
+.sellectdate{
+    margin-right: 20px;
+}
+.button_search button{
+    width: 70px;
+    height: 50px;
+    color: white;
+    background-color: #3b8dbc;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-right: 15px;
+    border: none;
+}
+.addtime{
+    margin-top: 24px;
+}
+.addtime a{
+    color: #3b8dbc;
+    text-decoration: none;
+}
+.timetable table{
+    font-family: arial;
+    margin-top: 15px;
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid gray;
+}
+timetable table tr td{
+    height: 40px;
+    border: 1px solid white;
+    text-align: center;
+}
+timetable table tr th{
+    height: 40px;
+    border-bottom: none;
+    border: 1px solid gray;
+}
+timetable table tr td:first-child{
+    text-align: left;
+    padding-left: 5px;
+}
+.addtimeTable{
+    width: 60%;
+}
+.addtimeTable table{
+    font-family: arial;
+    margin-top: 15px;
+    width: 100%;
+    border: 1px solid lightgray;
+    border-collapse: collapse;
+}
+.addtimeTable table tr td{
+    height: 50px;
+}
+.addtimeTable button{
+    width: 70px;
+    height: 40px;
+    color: white;
+    background-color: #3b8dbc;
+    border-radius: 5px;
+    margin-right: 15px;
+    border: none;
+    margin-left: 10px;
+}
+.addtimeTable input,select{
+    margin-left: 10px;
+    width: 400px;
+    height: 40px;
+}
